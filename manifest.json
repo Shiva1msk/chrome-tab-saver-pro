@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Saver Pro",
+  "version": "2.0",
+  "description": "Auto save and restore Chrome tabs",
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "alarms"
+  ],
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
